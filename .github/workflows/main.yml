@@ -15,3 +15,25 @@
 提交视图的屏幕截图。 在“历史记录”选项卡的右侧，在文件列表中，选中“hello.txt”文件，并以橙色边框突出显示。
 
 如果提交或提交范围中有多个文件，单击各个文件可查看对该文件的更改。
+使用命令行，删除当前为仓库配置的任何 Git 远程。
+
+# Show existing remotes
+$ git remote -v
+> origin git@git-server/octocat/hello-world.git (fetch)
+> origin git@git-server/octocat/hello-world.git (push)
+# Remove existing remotes
+$ git remote remove origin
+将存储库添加到 GitHub Desktop。
+
+在存储库栏中，单击“发布存储库”。
+
+存储库栏的屏幕截图。 标有“发布存储库”的按钮用橙色边框突出显示。
+在“发布存储库”窗口的“名称”字段中，键入所需的存储库名称，或者使用默认的当前本地存储库名称。
+
+可以选择性地添加存储库的说明。
+
+（可选）要发布公共存储库，请取消选中“保留此代码为专用”。
+
+选择“组织”下拉菜单，然后单击要在其中发布存储库的组织，或者，若要将存储库发布到个人帐户，请单击“无”。
+
+单击“发布存储库”。
